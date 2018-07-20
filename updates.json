@@ -1,5 +1,54 @@
 {
-  "ok": false,
-  "error_code": 409,
-  "description": "Conflict: can't use getUpdates method while webhook is active"
+  "ok": true,
+  "result": [
+    {
+      "update_id": 313197205,
+      "message": {
+        "message_id": 1,
+        "from": {
+          "id": 370103438,
+          "is_bot": false,
+          "first_name": "Andrey",
+          "last_name": "Kremenevsky",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 370103438,
+          "first_name": "Andrey",
+          "last_name": "Kremenevsky",
+          "type": "private"
+        },
+        "date": 1532093430,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 313197206,
+      "message": {
+        "message_id": 3,
+        "from": {
+          "id": 370103438,
+          "is_bot": false,
+          "first_name": "Andrey",
+          "last_name": "Kremenevsky",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 370103438,
+          "first_name": "Andrey",
+          "last_name": "Kremenevsky",
+          "type": "private"
+        },
+        "date": 1532093449,
+        "text": "f"
+      }
+    }
+  ]
 }
