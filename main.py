@@ -36,7 +36,7 @@ def mains():
         result_list.append (i)
     return result_list[5]
     
-URL = 'https://api.telegram.org/bot' + '607161646:AAEL58emfphC434NbsZyoY861IUjxob8kqg' + '/'
+URL = 'https://api.telegram.org/bot' + '672241145:AAFPHlsPN8RHhyGBwZZbGvMI7vZUDts6agE' + '/'
 
 global last_update_id
 last_update_id = 0
